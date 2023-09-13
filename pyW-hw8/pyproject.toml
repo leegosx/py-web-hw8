@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "my-mongodb-hw8"
+version = "0.1"
+description = "\"\""
+authors = ["Dmytro Klymenko <klimenko.dmitris@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "my_mongodb_hw8"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mongoengine = "^0.27.0"
+configparser = "^6.0.0"
+redis = "^5.0.0"
+redis-lru = "^0.1.2"
+pika = "^1.3.2"
+faker = "^19.6.1"
+pymongo = "^4.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
